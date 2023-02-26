@@ -3,7 +3,56 @@
 
 El Modelo-Vista-Controlador (MVC) es un patrón de arquitectura de software que se utiliza comúnmente en el desarrollo de aplicaciones web y de escritorio. Este patrón de diseño separa la lógica de la aplicación en tres componentes principales: el modelo, la vista y el controlador. Cada uno de estos componentes tiene una función específica y está diseñado para trabajar en conjunto para proporcionar una experiencia de usuario eficiente y escalable.
 
-## Vista
+
+# Modelo
+
+El modelo es el componente de la aplicación que se encarga de manejar los datos y la lógica de negocio. Esto incluye la gestión de la base de datos, la validación de los datos, el procesamiento de las solicitudes del usuario y la realización de operaciones complejas en los datos.
+
+
+## Screenshots
+
+![App Screenshot](https://media.licdn.com/dms/image/D4D12AQG5qbd4nSXQOg/article-cover_image-shrink_720_1280/0/1660140125781?e=2147483647&v=beta&t=TUrLEdXyswL1apSaZ49u-Mo3cO1wqHtBHAduBwDBqkI)
+
+
+## Enlistar las funcionalidades de la aplicación
+
+•	Crear, actualizar y eliminar datos en el modelo.
+
+•	Validar los datos ingresados por el usuario.
+
+•	Proporcionar una interfaz de usuario intuitiva y fácil de usar.
+
+•	Administrar el flujo de trabajo y la lógica de negocio de la aplicación.
+
+•	Proporcionar mecanismos para la autenticación y la autorización de los usuarios.
+
+•	Implementar la lógica de comunicación y coordinación entre los componentes del patrón MVC.
+
+•	Procesar eventos de usuario y actualizar la vista en consecuencia.
+
+•	Proporcionar mecanismos para el almacenamiento y la recuperación de datos persistentes.
+
+•	Manejar errores y excepciones de manera adecuada.
+
+•	Integrar la aplicación con otros sistemas y servicios externos.
+
+•	Proporcionar herramientas de análisis y monitoreo de la aplicación.
+
+
+## Definir la infraestructura para el almacenamiento y recuperación de datos
+
+•	Base de datos: Es el componente principal que se encarga de almacenar los datos de la aplicación de manera persistente. Puede ser una base de datos relacional, no relacional o un almacenamiento de datos en la nube. La elección del tipo de base de datos depende de los requisitos específicos del proyecto.
+
+•	Controlador de base de datos: Es el componente responsable de interactuar con la base de datos y proporcionar una interfaz para el modelo. El controlador de base de datos se encarga de realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la base de datos y proporcionar al modelo los datos necesarios.
+
+•	Mapeador objeto-relacional (ORM): Es una capa de abstracción que se utiliza para mapear los objetos del modelo a las tablas de la base de datos y viceversa. El ORM simplifica el proceso de acceso y modificación de los datos de la base de datos, y reduce la cantidad de código necesario para realizar estas operaciones.
+
+•	Lógica de validación de datos: Es el componente responsable de validar los datos ingresados por el usuario antes de ser almacenados en la base de datos. La lógica de validación de datos se encarga de verificar que los datos cumplan con los requisitos específicos de la aplicación, como la longitud de los campos, el formato de los datos, entre otros.
+
+•	Interfaz de programación de aplicaciones (API): Es el componente que se encarga de exponer los datos del modelo a otros componentes de la aplicación. La API proporciona una forma estandarizada y segura de acceder a los datos del modelo, y se utiliza para comunicar el modelo con la vista y el controlador.
+
+
+# Vista
 
 La vista es el componente de la aplicación que se encarga de la presentación de los datos al usuario. Esto incluye la generación de páginas web, la creación de formularios, la visualización de gráficos y otros elementos visuales.
 
