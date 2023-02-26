@@ -9,8 +9,6 @@ El Modelo-Vista-Controlador (MVC) es un patrón de arquitectura de software que 
 El modelo es el componente de la aplicación que se encarga de manejar los datos y la lógica de negocio. Esto incluye la gestión de la base de datos, la validación de los datos, el procesamiento de las solicitudes del usuario y la realización de operaciones complejas en los datos.
 
 
-## Screenshots
-
 ![App Screenshot](https://media.licdn.com/dms/image/D4D12AQG5qbd4nSXQOg/article-cover_image-shrink_720_1280/0/1660140125781?e=2147483647&v=beta&t=TUrLEdXyswL1apSaZ49u-Mo3cO1wqHtBHAduBwDBqkI)
 
 
@@ -97,3 +95,30 @@ Búsqueda de productos
 ~ El controlador utilizará los datos obtenidos del modelo para seleccionar la vista adecuada y presentar la información al usuario.
 
 ~ La vista utilizará plantillas HTML y CSS para generar la interfaz de usuario y presentar los datos de manera clara y organizada.
+
+
+
+# Controlador
+
+Controlador: es el componente que se encarga de gestionar las interacciones del usuario y la lógica de control de la aplicación. Es responsable de recibir y manejar las solicitudes del usuario, comunicarse con el modelo y actualizar la vista en consecuencia.
+
+
+![App Screenshot](https://www.freecodecamp.org/espanol/news/content/images/2021/06/MVC3.png)
+
+
+## Identificar los eventos necesarios que cumplan con la lógica del negocio
+
+Los eventos necesarios que cumplen con la lógica del negocio del controlador en el patrón de diseño Modelo-Vista-Controlador (MVC) dependen del dominio específico de la aplicación y de los requisitos del proyecto. Sin embargo, a continuación se presentan algunos ejemplos de eventos que pueden ser necesarios para implementar la lógica del negocio en el controlador:
+
+Eventos de entrada de datos: Cuando el usuario ingresa datos en la vista, se generan eventos que el controlador utiliza para validar y procesar los datos. Estos eventos pueden incluir la entrada de texto, selección de opciones, cargas de archivos, etc.
+
+Eventos de navegación: Cuando el usuario navega por la aplicación, se generan eventos que el controlador utiliza para cambiar el estado de la vista y del modelo. Estos eventos pueden incluir la selección de menús, botones de navegación, enlaces, etc.
+
+Eventos de tiempo: Cuando se alcanza un momento específico en el tiempo, se generan eventos que el controlador utiliza para realizar operaciones específicas. Estos eventos pueden incluir la ejecución de tareas programadas, temporizadores, alertas, etc.
+
+Eventos de acción del usuario: Cuando el usuario realiza una acción específica en la aplicación, se generan eventos que el controlador utiliza para procesar la acción y actualizar el estado de la vista y del modelo. Estos eventos pueden incluir clics de botones, arrastres de elementos, gestos táctiles, etc.
+
+Eventos de autenticación y autorización: Cuando el usuario inicia sesión en la aplicación o realiza una acción que requiere permisos especiales, se generan eventos que el controlador utiliza para validar y autorizar la acción. Estos eventos pueden incluir la verificación de credenciales de usuario, el acceso a bases de datos de usuarios, etc.
+
+
+
