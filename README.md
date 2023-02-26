@@ -5,7 +5,7 @@ El Modelo-Vista-Controlador (MVC) es un patrón de arquitectura de software que 
 
 ## Vista
 
-El modelo es el componente de la aplicación que se encarga de manejar los datos y la lógica de negocio. Esto incluye la gestión de la base de datos, la validación de los datos, el procesamiento de las solicitudes del usuario y la realización de operaciones complejas en los datos.
+La vista es el componente de la aplicación que se encarga de la presentación de los datos al usuario. Esto incluye la generación de páginas web, la creación de formularios, la visualización de gráficos y otros elementos visuales.
 
 
 ![App Screenshot](https://static.wixstatic.com/media/af8b51_8f89c429555a4fc8a98a940095f7f30d~mv2.jpg/v1/fill/w_396,h_465,al_c,q_80,enc_auto/img6.jpg)
